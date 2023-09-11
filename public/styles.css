@@ -1,0 +1,247 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #eee;
+  padding: 0 16px;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+}
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.square {
+background-color: aqua;
+/* applied to all square keys: asbdfaf */
+}
+
+.topdivkeyboard {
+padding-top: 100px;
+}
+
+.pressed {
+width: 50px;
+height: 50px;
+/* applied to keys that are being pressed */
+}
+
+.EndScreen {
+background: #fff;
+border-radius: 7px;
+box-shadow: 0 2px 5px #ccc;
+padding: 100px;
+width: 1000px;
+margin: 16px;
+position: absolute;
+align-self: center;
+text-align: center;
+}
+
+table {
+border-collapse: collapse;
+}
+
+td {
+padding-right: 40px; /* Adjust the value as needed */
+}
+
+.shop-items-container {
+display: flex;
+margin: 20px;
+gap: 100px;
+}
+
+.shop-name {
+padding-right: 20px;
+}
+
+.shop-display-item {
+background: #fff;
+border-radius: 7px;
+box-shadow: 0 2px 5px #ccc;
+padding: 100px;
+width: fit-content;
+margin: 16px;
+position: absolute;
+align-self: center;
+text-align: center;
+}
+
+.profile-skins {
+display: flex;
+}
+
+/* BUTTONS */
+
+.login-button-div {
+font-family: Arial, sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+flex-direction: column;
+background-color: #f0f0f0;
+}
+
+.login-button {
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+font-weight: bold;
+text-transform: uppercase;
+transition: background-color 0.3s ease;
+width: 200px;
+margin: 5px;
+}
+
+.primary {
+color: #fff;
+background-color: #0056b3; /* blue color, you can change it */
+}
+
+.secondary {
+color: #0056b3;
+background-color: #fff;
+border: 1px solid #0056b3;
+}
+
+.login-button:hover {
+background-color: #0c223a; /* a slightly darker shade of blue for the primary button */
+}
+
+.login-button.secondary:hover {
+background-color: #baa7a7; /* a slightly darker background for the secondary button */
+}
+
+/* LOGOS */
+
+.first-page-logo {
+align-items: center;  
+justify-content: center;
+}
+
+/* MENU */
+
+.menu-div {
+font-family: Arial, sans-serif;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+background-color: #f0f0f0;
+padding-top: 50px;
+}
+
+.menu-div-inner {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/* NAVBAR */
+
+.nav-welcome {
+  margin-right: 40px;
+  font-weight: 550;
+}
+
+.navbarRight {
+float: right;
+padding: 10px;
+}
+
+.navButton {
+padding: 10px;
+}
+
+header {
+  background-color: #5c54f3;
+  margin: auto -16px;
+  padding: 24px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
+/* LEADERBOARDS */
+
+.board-btn {
+  display: inline-block;
+  border: 2px solid black;
+  background-color: transparent;
+  color: black;
+  font-family: "Montserrat";
+  font-size: 16px;
+  padding: 10px 20px;
+  height: 600px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+.board-btn:hover {
+  background-color: rgba(0, 0, 0, 0.1); 
+}
+
+.board-btn-div {
+  display: flex;
+  justify-content: center; /* Horizontally center the buttons */
+  align-items: center; /* Vertically center the buttons */
+  margin-top: 40px;
+}
+
+.board-btn.left { 
+  /* Combines both classes */
+  width: 300px;
+}
+
+.board-btn.right {
+  width: 300px;
+}
+
+.board-btn.mid {
+  width: 700px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
