@@ -11,7 +11,7 @@ function BattleOverlay({code}) {
     const {apiUrl} = useContext(ApiContext);
     const {user} = useContext(UserContext);
     const [equiptSkin, setEquiptSkin] = useState("Default");
-    const [paragraph, setParagraph] = useState('test');
+    const [paragraph, setParagraph] = useState('testing test');
 
     useEffect(() => {
         if(user) {
