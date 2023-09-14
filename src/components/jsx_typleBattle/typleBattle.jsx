@@ -6,7 +6,7 @@ import { ApiContext } from "../../contexts/apiContext";
 import axios from "axios";
 import BattleOverlay from "./battleOverlay";
 
-const socket = io.connect("https://our-bruin-398600.uc.r.appspot.com/");
+const socket = io.connect("https://our-bruin-398600.uc.r.appspot.com");
 // http://localhost:3001        for local
 // https://our-bruin-398600.uc.r.appspot.com
 
